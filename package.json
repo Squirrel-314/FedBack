@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "An app for collecting user feedback",
   "main": "index.js",
+  "engines": {
+     "node": "10.19.0",
+     "npm": "6.14.11"
+ },
   "scripts": {
     "start": "node index.js"
   },
