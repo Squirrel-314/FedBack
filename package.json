@@ -4,15 +4,17 @@
   "description": "An app for collecting user feedback",
   "main": "index.js",
   "engines": {
-     "node": "10.19.0",
-     "npm": "6.14.11"
- },
+    "node": "10.19.0",
+    "npm": "6.14.11"
+  },
   "scripts": {
     "start": "node index.js"
   },
   "author": "Squirrel",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
